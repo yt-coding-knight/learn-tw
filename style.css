@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-default {
+    @apply p-2 hover:bg-white hover:bg-opacity-20 hover:rounded-full;
+  }
+  .active-link {
+    @apply bg-zinc-800 bg-opacity-80;
+  }
+}
+
+div[data-card="body"] > button {
+  display: none;
+}
+
+div[data-card="body"]:hover > button {
+  display: block;
+}

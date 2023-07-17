@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Learn tailwind</title>
+  </head>
+  <body class="bg-gray-950">
+    <nav
+      class="fixed bg-gray-950 z-10 top-0 flex w-full h-14 justify-between items-center px-4"
+    >
+      <div class="flex items-center gap-x-4">
+        <button class="bg-default">
+          <img src="./assets/icons/menu.svg" class="w-6" />
+        </button>
+        <h3 class="text-slate-100 text-xl">Youtube</h3>
+      </div>
+      <div class="pl-24 basis-[55%] flex items-center">
+        <input
+          type="search"
+          class="bg-gray-950 text-slate-100 py-2 pl-4 border border-zinc-800 rounded-l-full w-[75%]"
+          placeholder="Search"
+        />
+        <button class="bg-zinc-800 py-[10px] px-5 rounded-r-full border border-zinc-800">
+          <img src="./assets/icons/search.svg" class="w-5" />
+        </button>
+        <button class="bg-default ml-4">
+          <img src="./assets/icons/mic.svg" class="w-5" />
+        </button>
+      </div>
+      <div class="flex items-center space-x-4">
+        <img src="./assets/icons/ellipse.svg" class="w-6 cursor-pointer" />
+        <button
+          class="flex hover:bg-sky-600 hover:bg-opacity-30 items-center border-2 py-1 px-2 rounded-full border-zinc-800"
+        >
+          <img src="./assets/icons/user.svg" class="w-6 text-sky-600" />
+          <span class="text-sky-600 pl-2 text-sm font-semibold">Sign in</span>
+        </button>
+      </div>
+    </nav>
+    <main class="pt-14 flex">
+      <aside class="w-56 fixed bg-gray-950 max-h-full overflow-y-auto p-3 top-14 z-10">
+        <ul class="mb-3">
+          <li>
+            <a
+              href="#"
+              class="flex gap-x-6 px-3 py-2 active-link rounded-lg hover:bg-zinc-700 hover:bg-opacity-60"
+            >
+              <img src="./assets/icons/home.svg" class="w-6" />
+              <span class="text-slate-100">Home</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex gap-x-6 px-3 py-2 rounded-lg hover:bg-zinc-700 hover:bg-opacity-60"
+            >
+              <img src="./assets/icons/home.svg" class="w-6" />
+              <span class="text-slate-100">Home</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex gap-x-6 px-3 py-2 rounded-lg hover:bg-zinc-700 hover:bg-opacity-60"
+            >
+              <img src="./assets/icons/home.svg" class="w-6" />
+              <span class="text-slate-100">Home</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex gap-x-6 px-3 py-2 rounded-lg hover:bg-zinc-700 hover:bg-opacity-60"
+            >
+              <img src="./assets/icons/home.svg" class="w-6" />
+              <span class="text-slate-100">Home</span>
+            </a>
+          </li>
+        </ul>
+        <div class="border border-zinc-800"></div>
+      </aside>
+      <div class="basis-full ml-56">
+        <div class="fixed w-full z-10 bg-gray-950 p-3">
+          <div class="absolute right-[224px] text-right bg-gray-950 w-16">
+            <button class="rounded-full mr-4 p-2 hover:bg-white hover:bg-opacity-20">
+              <img src="./assets/icons/right.svg" class="w-5" />
+            </button>
+          </div>
+          <div class="flex pl-8 gap-x-4">
+            <button class="bg-white text-gray-800 py-[6px] px-3 text-sm rounded-lg">
+              All
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Gaming
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Blabvla
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Music
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Coding Knight
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Coding Knight
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Coding Knight
+            </button>
+            <button
+              class="bg-white bg-opacity-10 whitespace-nowrap hover:bg-opacity-20 text-slate-100 py-[6px] px-3 text-sm rounded-lg"
+            >
+              Coding Knight
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-responsive gap-4 pt-20 pl-28 pr-24">
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <figure class="relative w-full">
+              <img src="./assets/example.jpg" class="h-52 rounded-xl" />
+              <p class="text-slate-100 bg-gray-950 absolute bottom-2 right-4 text-sm">
+                20:03
+              </p>
+            </figure>
+            <div data-card="body" class="flex items-start pt-2 justify-between gap-x-3">
+              <img src="./assets/icons/user.svg" class="flex-none w-8 rounded-full" />
+              <div class="flex-1">
+                <h3 class="text-slate-100 text-lg line-clamp-2">
+                  ini heading hsajnsjnbsjndjada jjnasjdnakndakndak
+                  kjnjsnakndakjdnajndajbdajbsdb
+                </h3>
+                <p class="text-slate-200 opacity-70">paragrap</p>
+                <p class="text-slate-200 opacity-70">1.6M views &bull; 1year</p>
+              </div>
+              <button class="pr-4">
+                <img src="./assets/icons/ellipse.svg" class="w-6" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
